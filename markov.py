@@ -59,7 +59,7 @@ def make_chains(text_string):
         else:
             chains[pairs] = [words[i + 2]]
             # print(chains[pairs])
-    print(chains)
+    # print(chains)
     return chains
 
 
@@ -69,6 +69,20 @@ def make_text(chains):
     words = []
 
     # your code goes here
+    #for key, value in chains:
+        # print(key)
+        #random_text = choice(chains.key())
+        #print(random_text)
+    
+        # print(value)
+        
+    #print(chains)
+    
+    #chains[keys]= values
+    random_text = choice(list(chains.keys()))
+ 
+    print(random_text)
+    
 
     return ' '.join(words)
 
